@@ -1,0 +1,48 @@
+@import "tailwindcss";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color:#404040;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.blue-btn{
+  @apply bg-blue-500 hover:bg-black mt-8 rounded w-50 h-12 text-white text-xl font-semibold ; 
+}
+.bluetxt{
+    @apply text-blue-500; 
+}
+.containerMain{
+    @apply lg:w-5/6 m-auto mb-10 mt-20 sm:px-2;
+}
+.cont{
+    @apply lg:w-5/6 m-auto mt-10 mb-2 sm:px-2;
+}
+.blue-hover-a{
+  @apply block text-base text-neutral-500 mb-4 hover:text-blue-500 transition
+}
+#supportHero{
+  background-color: #387FD1;
+}
+#supportSearch{
+  background-color:white;
+  width: 90%;
+  height: 4rem;
+  border-radius: 5px;
+}
+#supportSearch::placeholder{
+  color: #737373;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
