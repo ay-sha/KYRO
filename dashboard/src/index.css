@@ -842,5 +842,14 @@ hr {
   background-color: rgb(212, 212, 212);
 }
 
-
-
+@media (max-width: 996px) {
+  .search{
+    font-size: 0.7rem;
+  }
+  .watchlist-container{
+    flex-basis: 50%;
+  }
+  .indices-container{
+    flex-basis: 49%;
+  }
+}
