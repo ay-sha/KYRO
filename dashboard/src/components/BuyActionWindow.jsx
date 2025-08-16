@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import axios from "axios";
-
 import GeneralContext from "./GeneralContext";
-
-import "./BuyActionWindow.css";
+import "./ActionWindow.css";
 
 const BuyActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
@@ -18,7 +15,6 @@ const BuyActionWindow = ({ uid }) => {
       price: stockPrice,
       mode: "BUY",
     });
-
     GeneralContext.closeBuyWindow();
   };
 

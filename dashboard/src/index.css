@@ -844,12 +844,12 @@ hr {
 
 @media (max-width: 996px) {
   .search{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .watchlist-container{
-    flex-basis: 50%;
+    flex-basis: 40%;
   }
   .indices-container{
-    flex-basis: 49%;
+    flex-basis: 39%;
   }
 }
